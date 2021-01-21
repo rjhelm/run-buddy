@@ -72,7 +72,7 @@ header nav ul li a {
 }
 
 /* apply styles to <h3> */
-.hero-for h3 {
+.hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
@@ -134,7 +134,7 @@ header nav ul li a {
     border-color: #fce138;
 }
 .secondary-border {
-    border-color: #39a2b6
+    border-color: #39a2b6;
 }
 
 /*what we do styles */
