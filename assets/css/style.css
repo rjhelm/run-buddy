@@ -5,6 +5,22 @@
     box-sizing: border-box;
 }
 
+/* apply styles to <p> */
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+/* Generic Text Align Style (l) */
+.text-left {
+    text-align: left;
+}
+
+/* Generic Text Align Style (r) */
+.text-right {
+    text-align: right;
+}
+
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
@@ -168,7 +184,7 @@ header nav ul li a {
 }
 /* What "" do End */
 
-/* Trainer Section Start */
+/* Trainer Styles Start */
 .trainers {
     text-align: center;
 }
@@ -202,18 +218,39 @@ header nav ul li a {
     font-size: 26px;
     margin-bottom: 25px;
 }
-/* apply styles to <p> */
-.trainer-bio p {
-    font-size: 17px;
-    line-height: 1.3;
+/* Trainer Styles End */
+
+/* Reach Out Styles Start */
+.contact {
+    text-align: center;
+    background: #024e76;
 }
-/* Generic Text Align Style (l) */
-.text-left {
+/* apply h2 styles */
+.contact h2 {
+    color: #fce138;
+}
+/* apply styles to iframe */
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+/* apply div styles */
+.contact-info div {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
     text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
 }
-/* Generic Text Align Style (r) */
-.text-right {
-    text-align: right;
+/* apply section title styles */
+.section-title {
+    font-size: 55px;
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    margin-bottom: 35px;
+    color: #024e76;
 }
 
 /* Footer Styles Start*/
