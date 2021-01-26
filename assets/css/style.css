@@ -252,6 +252,23 @@ header nav ul li a {
     margin-bottom: 35px;
     color: #024e76;
 }
+/* apply h3 styles */
+.contact-info h3 {
+    color:#fce138;
+    font-size: 32px;
+}
+/* apply address styles */
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+/* apply a styles */
+.contact-info a {
+    color:#fce138
+}
+/* Reach Out Styles End */
 
 /* Footer Styles Start*/
 footer {
