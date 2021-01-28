@@ -25,6 +25,9 @@
 header {
     padding: 20px 35px;
     background-color: #39a2b6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     }
 
 /* apply styles to <section> */
@@ -38,7 +41,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0; 
-    display: inline;
 }
 
 /* apply styles to <a> */
@@ -49,7 +51,6 @@ header a {
 
 /* apply styles to <nav> */
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
