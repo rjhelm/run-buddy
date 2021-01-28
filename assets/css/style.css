@@ -151,9 +151,6 @@ header nav ul li a {
 /* Hero Style End */
 
 /* What "" Do Start */
-.intro {
-    text-align: center;
-}
 
 /* apply styles to <p> */
 .intro p {
@@ -162,14 +159,12 @@ header nav ul li a {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /* apply styles to <h2> */
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
 }
 .primary-border {
@@ -181,38 +176,70 @@ header nav ul li a {
 
 /*what we do styles */
 .steps {
-    text-align: center;
-    background: #fce138
+    background: #fce138;
 }
-/* apply styles to <div> */
-.steps div {
-    margin-bottom: 80px;
+
+/* apply style to .step */
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
-/* apply styles to <img> */
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
+
 /* apply styles to <h3> */
-.steps h3 {
+.step h3 {
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
+    flex: 1 30%;
 }
+
+/* apply style to .step-img */
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+/* apply style to .step-info */
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 /* apply styles to <p> */
-.steps p {
+.step-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
 }
-/* apply styles to <span> */
-.steps span {
-    font-size: 38px;
+
+/* apply styles ti .step-text */
+.step-text {
+    flex: 12;
 }
+
+/* apply style to img within .step-img */
+.step-img img {
+    max-width: 100%;
+}
+
+/* apply style to h4 */
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
 /* What "" do End */
 
 /* Trainer Styles Start */
 .trainers {
-    text-align: center;
+
 }
 /* apply styles to .trainer <article> */
 .trainer {
@@ -248,7 +275,6 @@ header nav ul li a {
 
 /* Reach Out Styles Start */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 /* apply h2 styles */
@@ -272,11 +298,12 @@ header nav ul li a {
 /* apply section title styles */
 .section-title {
     font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    margin-bottom: 35px;
+    padding-bottom: 20px;
+    text-align: center;
     color: #024e76;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 /* apply h3 styles */
 .contact-info h3 {
@@ -324,3 +351,8 @@ footer a {
     color: #024e76;
 }
 /* Footer Styles END */
+
+/* apply style to .flex-row */
+.flex-row {
+    display:flex;
+}
