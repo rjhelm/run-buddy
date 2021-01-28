@@ -73,10 +73,8 @@ header nav ul li a {
 /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -105,12 +103,9 @@ header nav ul li a {
     border: solid 3px #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 40%; 
     color: #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
     margin: 3.5%;
+    width: 40%;
 }
 
 /* apply styles to <h3> */
@@ -396,15 +391,100 @@ footer a {
 
 /* Media Queries for Smaller Desktop Screens and Below */
 @media screen and (max-width:980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }        
 
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-cta, .hero-form {
+        width: 100%;
+    }
+
+    .hero-cta {
+        text-align: center;
+    }
+
+    .section-title {
+        width: 85%;
+    }
+
+    .trainer {
+        flex: 0 70%;
+    }
+
+    .contact-info iframe {
+        flex: 1 100%;
+    }
 }
 
 /* Media Queries for Tablets and Smaller */
 @media screen and (max-width: 768px) {
-   
+   section {
+       padding: 30px 15px;
+   }
+
+   .step h3 {
+       flex: 1 100%;
+       text-align: center;
+   }
+
+   .step-info {
+       flex: 2 100%;
+       text-align: center;
+       justify-content: center;
+   }
+
+   .step-img {
+       flex: 0 32%;
+       margin-right: 0;
+       margin-top: 15px;
+       margin-bottom: 15px;
+   }
+
+   .step-text {
+       flex: 100%;
+   }
 }
 
 /* Media Queries for Mobile Phones and Smaller */
 @media screen and (max-width: 575px) {
   
+    .hero-form button {
+        width: 100%;
+    }
+
+    .section-title {
+        width: 95%
+    }
+
+    .intro p {
+        width: 100%;
+    }
+
+    .trainer {
+        flex: 0 100%;
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-info > * {
+        flex: 0 100%;
+    }
+
+    .contact-form {
+        order: 3;
+    }
 }
